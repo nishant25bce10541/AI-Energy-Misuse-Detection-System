@@ -1,5 +1,5 @@
-# Electricity Theft Detection
-# Name: Divyansh Dhimole
+# Energy Misuse Detection System
+# Name: Nishant Pandey
 
 import numpy as np
 import pandas as pd
@@ -86,5 +86,5 @@ print(confusion_matrix(y_test, rf_pred))
 plt.scatter(df['mean'], df['std'], c=df['label'])
 plt.xlabel("Mean Consumption")
 plt.ylabel("Standard Deviation")
-plt.title("Electricity Theft Detection")
+plt.title("Energy Misuse Detection")
 plt.show()
